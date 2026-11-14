@@ -5,7 +5,7 @@ After=network.target
 [Service]
 User=zaid
 WorkingDirectory=/home/zaid/cloud-project
-ExecStart=/home/zaid/cloud-project/venv/bin/gunicorn -b 0.0.0.0:8080 app:app
+ExecStart=/home/zaid/cloud-project/venv/bin/gunicorn -b 0.0.0.0:8080 -k gthread --threads 4 app:app
 Restart=on-failure
 
 [Install]
