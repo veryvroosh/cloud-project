@@ -1,0 +1,12 @@
+[Unit]
+Description=Cloud Flask app (Gunicorn)
+After=network.target
+
+[Service]
+User=zaid
+WorkingDirectory=/home/zaid/cloud-project
+ExecStart=/home/zaid/cloud-project/venv/bin/gunicorn -b 0.0.0.0:8080 app:app
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
