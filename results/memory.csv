@@ -1,0 +1,10 @@
+setup,sample,memory_mb
+debian,1,41.5
+debian,2,41.5
+debian,3,41.5
+alpine,1,34.2
+alpine,2,34.2
+alpine,3,34.2
+vm,1,1151.8
+vm,2,1151.7
+vm,3,1151.8

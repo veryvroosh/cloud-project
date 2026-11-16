@@ -1,0 +1,10 @@
+setup,run,startup_seconds
+debian,1,0.44
+debian,2,0.36
+debian,3,0.4
+alpine,1,0.42
+alpine,2,0.41
+alpine,3,0.42
+vm,1,31.35
+vm,2,31.46
+vm,3,30.08
